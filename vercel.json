@@ -1,5 +1,5 @@
 {
-  "version": 2,
-  "builds": [{ "src": "bot.py", "use": "@vercel/python" }],
-  "routes": [{ "src": "/webhook", "dest": "bot.py" }]
+  "builds": [
+    { "src": "bot.py", "use": "@vercel/python" }
+  ]
 }
