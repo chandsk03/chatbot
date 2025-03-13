@@ -15,7 +15,7 @@ TOKEN = "7552161237:AAEI_Fi1NVRfkkWpWGjm58gIhEgV_07USUM"
 ADMIN_ID = 7303763913
 RATE_LIMIT_SECONDS = 1.0
 WEBHOOK_URL = "https://chatbot-brown-tau.vercel.app/webhook"  # Replace with your public URL
-WEBHOOK_PORT = 8443  # Common port for HTTPS
+WEBHOOK_PORT = 80  # Common port for HTTPS
 BATCH_SIZE = 20  # Number of broadcast messages per batch
 
 # MongoDB Setup with Retry
